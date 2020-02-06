@@ -1,0 +1,26 @@
+{
+    "message": "Hello SQS",
+    "event": {
+        "Records": [
+            {
+                "messageId": "ee5320a1-e352-4c55-9b62-95635ff55fa8",
+                "receiptHandle": "AQEB272UbHIHQh5XdLk5iLPVsdWsPBGfMww3opHR1HVZHwpq09+ZNjSmA2mZXLB+tEINzzQOF+KI6H0Q4GBToCsyAohxzGgxyvIC/pi0gBo5WZlKls2uwYxD8+Nf+WMb2T9vZTJkx99TrbJf5eU8Pw19SRjo0PbAZtmantQt7KTvyrSBvO46t+Bmw0ifzJFW0Fu9HOsgHgOuiFGP1QAVIu30x8gw+TMybWvy+844WdQAw2Fk6nrIbLqrtpLpfXxJ/1e6UqJyra5IWbR+eASzkUHew8oJ5Uc17Sj59N/KdOjphJg=",
+                "body": "Hello Twitter.",
+                "attributes": {
+                    "ApproximateReceiveCount": "1",
+                    "SentTimestamp": "1580379141025",
+                    "SequenceNumber": "18851321133811952128",
+                    "MessageGroupId": "1",
+                    "SenderId": "AROAJQTNNXCPBYIQ755B6:1580378584033262000",
+                    "MessageDeduplicationId": "2",
+                    "ApproximateFirstReceiveTimestamp": "1580379141025"
+                },
+                "messageAttributes": {},
+                "md5OfBody": "186580200496ed6c094f2b28f0a57845",
+                "eventSource": "aws:sqs",
+                "eventSourceARN": "arn:aws:sqs:eu-west-1:567589703415:sqs-fifo-qtweeter-poc.fifo",
+                "awsRegion": "eu-west-1"
+            }
+        ]
+    }
+}
