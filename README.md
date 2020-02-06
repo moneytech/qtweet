@@ -108,7 +108,7 @@ Please make sure to update the tests as appropriate. (just kidding, there is no 
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](./LICENSE)
 
 ### Credits
 
